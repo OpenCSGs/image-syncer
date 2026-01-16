@@ -12,7 +12,6 @@ jobs:
   sync-images:
     runs-on: ubuntu-latest
     env:
-      # 保留原来使用的凭据（供 image-syncer 使用）
       ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
       ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
@@ -23,10 +22,7 @@ jobs:
 
       - name: Check sync-images.yaml exists
         run: |
-          if [ ! -f sync-images.yaml ]; then
-            echo "Error: sync-images.yaml not found!"
-            exit 1
-          fi
+          
 
       - name: Download image-syncer
         run: |
@@ -47,6 +43,12 @@ jobs:
         if: github.event_name == 'schedule'
         run: |
           set -e
+          
+          if [ ! -f cron-images.yaml ]; then
+            echo "Error: sync-images.yaml not found!"
+            exit 1
+          fi
+          
           echo "Running image-syncer command:"
           image-syncer --auth=./auth.yaml --images=./sync-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
           
@@ -54,6 +56,12 @@ jobs:
         if: github.event_name != 'schedule'
         run: |
           set -e
+          
+          if [ ! -f sync-images.yaml ]; then
+            echo "Error: sync-images.yaml not found!"
+            exit 1
+          fi
+          
           echo "Running image-syncer command:"
           image-syncer --auth=./auth.yaml --images=./sync-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
       
