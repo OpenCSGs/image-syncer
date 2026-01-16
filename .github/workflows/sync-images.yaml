@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - 'sync-images.yaml'
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   sync-images:
@@ -40,11 +42,18 @@ jobs:
           sudo chmod +x /usr/local/bin/image-syncer
       
           image-syncer --help
-
-      - name: Run image-syncer
-        env:
-          IMAGE_SYNCER_RUN: ${{ env.IMAGE_SYNCER_RUN }}
+          
+      - name: Run cron image-syncer
+        if: github.event_name == 'schedule'
         run: |
           set -e
           echo "Running image-syncer command:"
           image-syncer --auth=./auth.yaml --images=./sync-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
+          
+      - name: Run general image-syncer
+        if: github.event_name != 'schedule'
+        run: |
+          set -e
+          echo "Running image-syncer command:"
+          image-syncer --auth=./auth.yaml --images=./sync-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
+      
