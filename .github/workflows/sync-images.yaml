@@ -9,19 +9,42 @@ on:
 jobs:
   sync-images:
     runs-on: ubuntu-latest
+    env:
+      # 保留原来使用的凭据（供 image-syncer 使用）
+      ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
+      ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
+      DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        
-      - uses: hhyasdf/image-sync-action@v1.1
-        with:
-          auth_file: ./auth.yaml
-          images_file: ./sync-images.yaml
-          version: latest
-          proc: 10
+
+      - name: Check sync-images.yaml exists
+        run: |
+          if [ ! -f sync-images.yaml ]; then
+            echo "Error: sync-images.yaml not found!"
+            exit 1
+          fi
+
+      - name: Download image-syncer
+        run: |
+          set -e
+      
+          URL=$(curl -s https://api.github.com/repos/AliyunContainerService/image-syncer/releases/latest \
+            | jq -r '.assets[] | select(.name | test("linux.*amd64.*tar.gz$")) | .browser_download_url')
+      
+          curl -L "$URL" -o image-syncer.tar.gz
+          tar -xzf image-syncer.tar.gz
+      
+          sudo mv $(find . -name image-syncer -type f | head -n 1) /usr/local/bin/image-syncer
+          sudo chmod +x /usr/local/bin/image-syncer
+      
+          image-syncer --help
+
+      - name: Run image-syncer
         env:
-          ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
-          ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
-          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-          
+          IMAGE_SYNCER_RUN: ${{ env.IMAGE_SYNCER_RUN }}
+        run: |
+          set -e
+          echo "Running image-syncer command:"
+          image-syncer --auth=./auth.yaml --images=./sync-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
