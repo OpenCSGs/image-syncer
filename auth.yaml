@@ -1,0 +1,6 @@
+opencsg-registry.cn-beijing.cr.aliyuncs.com:
+  username: ${ACR_USERNAME}
+  password: ${ACR_PASSWORD}
+docker.io:
+  username: ${DOCKER_USERNAME}
+  password: ${DOCKER_PASSWORD}
