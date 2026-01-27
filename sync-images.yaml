@@ -1,2 +1,6 @@
 ---
 docker.io/alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
+docker.io/memcached:1.6.38-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/memcached
+docker.io/neo4j:5.23-community: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/neo4j
+docker.io/memmachine/memmachine:v0.2.3-cpu: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/memmachine/memmachine
+docker.io/pgvector/pgvector:pg16: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/pgvector/pgvector
