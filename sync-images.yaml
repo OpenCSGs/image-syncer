@@ -6,3 +6,5 @@
 # docker.io/pgvector/pgvector:pg16: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/pgvector/pgvector
 docker.io/labring/kubernetes:v1.32.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/labring/kubernetes
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v1.15.2: opencsghq/dataflow:v1.15.2
+docker.io/opencsghq/csghub-xnet:v1.15.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.1
+docker.io/opencsghq/csghub-xnet:v1.15.0: docker.io/opencsghq/csghub-xnet:v1.15.1
