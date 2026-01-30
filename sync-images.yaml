@@ -1,6 +1,5 @@
 ---
 # docker.io/alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
 # docker.io/memcached:1.6.38-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/memcached
-docker.io/opencsghq/csghub-xnet:v1.15.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.1
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/label-studio:v1.15.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/label-studio:v1.15.1
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/label-studio:v1.15.0: opencsghq/label-studio:v1.15.1
