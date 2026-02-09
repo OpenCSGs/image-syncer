@@ -5,5 +5,5 @@
 # docker.io/envoyproxy/gateway:v1.6.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway
 # docker.io/envoyproxy/ratelimit:3fb70258: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
 # docker.io/envoyproxy/envoy:distroless-v1.36.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
-alpine/git:2.52.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.52.0
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.52.0: opencsghq/git:2.52.0
+alpine/git:2.36.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.36.2
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.36.2: opencsghq/git:2.36.2
