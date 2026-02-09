@@ -2,6 +2,8 @@
 # docker.io/alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
 # docker.io/memcached:1.6.38-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/memcached
 # opencsghq/label-studio:v1.15.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/label-studio
-docker.io/envoyproxy/gateway:v1.6.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway
-docker.io/envoyproxy/ratelimit:3fb70258: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
-docker.io/envoyproxy/envoy:distroless-v1.36.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
+# docker.io/envoyproxy/gateway:v1.6.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway
+# docker.io/envoyproxy/ratelimit:3fb70258: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
+# docker.io/envoyproxy/envoy:distroless-v1.36.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
+alpine/git:v2.52.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:v2.52.0
+alpine/git:v2.52.0: opencsghq/git:v2.52.0
