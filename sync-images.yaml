@@ -7,4 +7,6 @@
 # docker.io/envoyproxy/envoy:distroless-v1.36.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
 # alpine/git:2.36.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.36.2
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.36.2: opencsghq/git:2.36.2
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ce,v1.16.0-ee: docker.io/opencsghq/omnibus-csghub
+# opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ce,v1.16.0-ee: docker.io/opencsghq/omnibus-csghub
+docker.io/mongo:4.4.30: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/mongo
+docker.io/mongo:4.4.30: docker.io/opencsghq/mongo
