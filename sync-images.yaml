@@ -11,4 +11,4 @@
 # docker.io/mongo:4.4.30: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/mongo
 # docker.io/mongo:4.4.30: docker.io/opencsghq/mongo
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/postgres:15.17,16.13,17.9: docker.io/opencsghq/postgres
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.0-fdb: docker.io/opencsghq/csghub-xnet:v1.15.1-fdb
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.0-fdb: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.1-fdb
