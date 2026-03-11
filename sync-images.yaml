@@ -21,3 +21,4 @@ gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v1.21.1: opencsg-
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/autoscaler
 gcr.io/knative-releases/knative.dev/serving/cmd/controller:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/controller
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/webhook
+gcr.io/knative-releases/knative.dev/serving/cmd/queue:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/queue
