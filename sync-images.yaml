@@ -15,10 +15,12 @@
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ee: docker.io/opencsghq/omnibus-csghub:latest
 #docker.io/opencsghq/omnibus-csghub:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:latest
 
-gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier:v1.21.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/kourier
 gcr.io/knative-releases/knative.dev/serving/cmd/activator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/activator
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/autoscaler-hpa
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/autoscaler
 gcr.io/knative-releases/knative.dev/serving/cmd/controller:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/controller
 gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/webhook
 gcr.io/knative-releases/knative.dev/serving/cmd/queue:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/queue
+gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier:v1.21.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/net-kourier/cmd/kourier
+gcr.io/knative-releases/knative.dev/serving/pkg/cleanup/cmd/cleanup:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/pkg/cleanup/cmd/cleanup
+gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate
