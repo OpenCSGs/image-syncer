@@ -15,9 +15,9 @@
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ee: docker.io/opencsghq/omnibus-csghub:latest
 #docker.io/opencsghq/omnibus-csghub:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:latest
 
-gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier:v1.21.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-serving/kourier
-gcr.io/knative-releases/knative.dev/serving/cmd/activator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-serving/activator
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-serving/autoscaler-hpa
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-serving/autoscaler
-gcr.io/knative-releases/knative.dev/serving/cmd/controller:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-serving/controller
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-serving/webhook
+gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier:v1.21.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/knative-releases/knative.dev/serving/cmd/kourier
+gcr.io/knative-releases/knative.dev/serving/cmd/activator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/knative-releases/knative.dev/serving/cmd/activator
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/knative-releases/knative.dev/serving/cmd/autoscaler-hpa
+gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/knative-releases/knative.dev/serving/cmd/autoscaler
+gcr.io/knative-releases/knative.dev/serving/cmd/controller:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/knative-releases/knative.dev/serving/cmd/controller
+gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/knative-releases/knative.dev/serving/cmd/webhook
