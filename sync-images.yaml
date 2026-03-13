@@ -29,3 +29,6 @@
 docker.io/volcanosh/vc-controller-manager:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-controller-manager
 docker.io/volcanosh/vc-scheduler:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-scheduler
 docker.io/volcanosh/vc-webhook-manager:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-webhook-manager
+docker.io/volcanosh/kube-state-metrics:v2.0.0-beta: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/kube-state-metrics
+docker.io/grafana/grafana:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/grafana
+
