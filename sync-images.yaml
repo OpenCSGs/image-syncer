@@ -32,3 +32,6 @@ docker.io/volcanosh/vc-webhook-manager:v1.14.1: opencsg-registry.cn-beijing.cr.a
 docker.io/volcanosh/kube-state-metrics:v2.0.0-beta: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/kube-state-metrics
 docker.io/grafana/grafana:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/grafana
 
+gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.21.1
+gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
+
