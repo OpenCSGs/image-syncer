@@ -35,3 +35,4 @@ docker.io/grafana/grafana:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/op
 gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.21.1
 gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
 
+registry.k8s.io/nfd/node-feature-discovery:v0.18.1,v0.18.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nfd/node-feature-discovery
