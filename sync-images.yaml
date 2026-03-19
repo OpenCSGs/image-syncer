@@ -26,13 +26,14 @@
 #gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate
 #docker.io/envoyproxy/envoy:v1.36-latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
 
-docker.io/volcanosh/vc-controller-manager:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-controller-manager
-docker.io/volcanosh/vc-scheduler:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-scheduler
-docker.io/volcanosh/vc-webhook-manager:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-webhook-manager
-docker.io/volcanosh/kube-state-metrics:v2.0.0-beta: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/kube-state-metrics
-docker.io/grafana/grafana:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/grafana
+#docker.io/volcanosh/vc-controller-manager:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-controller-manager
+#docker.io/volcanosh/vc-scheduler:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-scheduler
+#docker.io/volcanosh/vc-webhook-manager:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-webhook-manager
+#docker.io/volcanosh/kube-state-metrics:v2.0.0-beta: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/kube-state-metrics
+#docker.io/grafana/grafana:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/grafana
 
-gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.21.1
-gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
+#gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.21.1
+#gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
 
 registry.k8s.io/nfd/node-feature-discovery:v0.18.1,v0.18.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nfd/node-feature-discovery
+registry.k8s.io/nvidia/k8s-device-plugin:v0.18.1,v0.18.2: opencsg-registry-vpc.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
