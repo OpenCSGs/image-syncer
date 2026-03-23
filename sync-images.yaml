@@ -36,4 +36,8 @@
 #gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
 
 # registry.k8s.io/nfd/node-feature-discovery:v0.19.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nfd/node-feature-discovery
-nvcr.io/nvidia/k8s-device-plugin:v0.19.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
+# nvcr.io/nvidia/k8s-device-plugin:v0.19.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
+
+docker.1ms.run/longhornio/longhorn-share-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-share-manager
+docker.1ms.run/longhornio/longhorn-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-manager
+docker.1ms.run/longhornio/longhorn-ui:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-ui
