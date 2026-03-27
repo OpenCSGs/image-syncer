@@ -71,6 +71,8 @@
 #docker.io/longhornio/longhorn-instance-manager:v1.11.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-instance-manager:v1.11.1
 #docker.io/longhornio/support-bundle-kit:v0.0.81: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/support-bundle-kit:v0.0.81
 
-quay.io/argoproj/argocli:v3.7.10: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argocli
-quay.io/argoproj/workflow-controller:v3.7.10: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/workflow-controller
-quay.io/argoproj/argoexec:v3.7.10: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argoexec
+#quay.io/argoproj/argocli:v3.7.10: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argocli
+#quay.io/argoproj/workflow-controller:v3.7.10: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/workflow-controller
+#quay.io/argoproj/argoexec:v3.7.10: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argoexec
+
+python:3.13-slim: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/python
