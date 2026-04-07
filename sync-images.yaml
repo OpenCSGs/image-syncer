@@ -75,4 +75,5 @@
 #quay.io/argoproj/workflow-controller:v3.7.10: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/workflow-controller
 #quay.io/argoproj/argoexec:v3.7.10: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argoexec
 
-python:3.13-slim: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/python
+#python:3.13-slim: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/python
+golang:1.25.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/golang
