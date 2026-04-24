@@ -78,5 +78,5 @@
 #python:3.13-slim: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/python
 #golang:1.25.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/golang
 #registry.k8s.io/agent-sandbox/agent-sandbox-controller:v0.2.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agent-sandbox/agent-sandbox-controller
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/starhub-server:v2.0.4-cn-saas: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/starhub_server
-
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/starhub-server:v2.0.4-cn-saas: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/starhub_server
+docker.io/alpine/curl:8.17.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/alpine/curl
