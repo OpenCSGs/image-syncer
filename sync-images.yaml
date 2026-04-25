@@ -81,6 +81,7 @@
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/starhub-server:v2.0.4-cn-saas: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/starhub_server
 #docker.io/alpine/curl:8.17.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/alpine/curl
 
-quay.io/calico/cni:v3.31.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/calico/cni
-quay.io/calico/node:v3.31.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/calico/node
-quay.io/calico/kube-controllers:v3.31.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/calico/kube-controllers
+#quay.io/calico/cni:v3.31.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/calico/cni
+#quay.io/calico/node:v3.31.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/calico/node
+#quay.io/calico/kube-controllers:v3.31.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/calico/kube-controllers
+nvcr.io/nvidia/k8s-device-plugin:v0.17.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
