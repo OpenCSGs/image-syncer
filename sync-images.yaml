@@ -5,6 +5,9 @@
 # docker.io/envoyproxy/gateway:v1.6.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway
 # docker.io/envoyproxy/ratelimit:3fb70258: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
 # docker.io/envoyproxy/envoy:distroless-v1.36.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
+docker.io/envoyproxy/gateway:v1.6.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway
+docker.io/envoyproxy/ratelimit:05c08d03: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
+docker.io/envoyproxy/envoy:distroless-v1.36.6: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
 # alpine/git:2.36.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.36.2
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.36.2: opencsghq/git:2.36.2
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ce,v1.16.0-ee: docker.io/opencsghq/omnibus-csghub
@@ -12,8 +15,8 @@
 # docker.io/mongo:4.4.30: docker.io/opencsghq/mongo
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/postgres:15.17,16.13,17.9: docker.io/opencsghq/postgres
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.0-fdb: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.1-fdb
-#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ee: docker.io/opencsghq/omnibus-csghub:latest
-#docker.io/opencsghq/omnibus-csghub:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:latest
+# opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ee: docker.io/opencsghq/omnibus-csghub:latest
+# docker.io/opencsghq/omnibus-csghub:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:latest
 
 #gcr.io/knative-releases/knative.dev/serving/cmd/activator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/activator
 #gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/autoscaler-hpa
@@ -85,5 +88,5 @@
 #quay.io/calico/node:v3.31.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/calico/node
 #quay.io/calico/kube-controllers:v3.31.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/calico/kube-controllers
 #nvcr.io/nvidia/k8s-device-plugin:v0.17.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
-nvcr.io/nvidia/k8s-device-plugin:v0.17.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
+#nvcr.io/nvidia/k8s-device-plugin:v0.17.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
 
