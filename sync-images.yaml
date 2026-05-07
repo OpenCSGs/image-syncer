@@ -35,8 +35,11 @@ gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate
 #docker.io/volcanosh/kube-state-metrics:v2.0.0-beta: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/kube-state-metrics
 #docker.io/grafana/grafana:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/grafana
 
-gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.21.1
-gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
+gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.22.1
+gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.22.1
+gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.21.1
+gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
+
 
 # registry.k8s.io/nfd/node-feature-discovery:v0.19.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nfd/node-feature-discovery
 # nvcr.io/nvidia/k8s-device-plugin:v0.19.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
