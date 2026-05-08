@@ -5,9 +5,9 @@
 # docker.io/envoyproxy/gateway:v1.6.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway
 # docker.io/envoyproxy/ratelimit:3fb70258: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
 # docker.io/envoyproxy/envoy:distroless-v1.36.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
-docker.io/envoyproxy/gateway:v1.6.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway
-docker.io/envoyproxy/ratelimit:05c08d03: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
-docker.io/envoyproxy/envoy:distroless-v1.36.6: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
+# docker.io/envoyproxy/gateway:v1.6.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway
+# docker.io/envoyproxy/ratelimit:05c08d03: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
+# docker.io/envoyproxy/envoy:distroless-v1.36.6: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
 # alpine/git:2.36.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.36.2
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/git:2.36.2: opencsghq/git:2.36.2
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ce,v1.16.0-ee: docker.io/opencsghq/omnibus-csghub
@@ -17,16 +17,13 @@ docker.io/envoyproxy/envoy:distroless-v1.36.6: opencsg-registry.cn-beijing.cr.al
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.0-fdb: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.1-fdb
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ee: docker.io/opencsghq/omnibus-csghub:latest
 # docker.io/opencsghq/omnibus-csghub:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:latest
-#docker.io/envoyproxy/envoy:v1.36-latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
+# docker.io/envoyproxy/envoy:v1.36-latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
 
 #docker.io/volcanosh/vc-controller-manager:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-controller-manager
 #docker.io/volcanosh/vc-scheduler:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-scheduler
 #docker.io/volcanosh/vc-webhook-manager:v1.14.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-webhook-manager
 #docker.io/volcanosh/kube-state-metrics:v2.0.0-beta: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/kube-state-metrics
 #docker.io/grafana/grafana:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/grafana
-
-
-
 
 # registry.k8s.io/nfd/node-feature-discovery:v0.19.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nfd/node-feature-discovery
 # nvcr.io/nvidia/k8s-device-plugin:v0.19.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
@@ -80,18 +77,27 @@ docker.io/envoyproxy/envoy:distroless-v1.36.6: opencsg-registry.cn-beijing.cr.al
 #nvcr.io/nvidia/k8s-device-plugin:v0.17.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
 #nvcr.io/nvidia/k8s-device-plugin:v0.17.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s-device-plugin
 
+docker.io/envoyproxy/envoy:v1.37-latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
+gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier@sha256:a2e8f568a4bf68ef6391bc3afea956d11a8698f6a22c4be50844b1da4f8bcc74: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/net-kourier/cmd/kourier
+#gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate@sha256:f7ed5718308c5b272c8ae37f8d097aab483f02870dd98f94464764b982e8d8f7
+#gcr.io/knative-releases/knative.dev/serving/cmd/activator@sha256:8f7e9df2642a8ba715ebc55b62abee17b0984b6b6af0c6ec00dabaadf5f8cccb
+#gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa@sha256:8237bea6e7df5ee0462f70eb94f503fb7081205d4034da0ea84b194bb73cc7ae
+#gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler@sha256:ec66d97244395b57a67923d4a8c5a95f0264805f1fdb2ee0cdb49ec0f3bd7855
+#gcr.io/knative-releases/knative.dev/serving/cmd/controller@sha256:6833f2c83e9f356c274ddb2de40e5471ad2b1c08882c9bd11f5afa240e86d574
+#gcr.io/knative-releases/knative.dev/serving/cmd/webhook@sha256:c505888f7ee34ccadc1b9a6877d6d49691f633ea28cf8cbe03fcfa6d3afcd584
+#gcr.io/knative-releases/knative.dev/serving/pkg/cleanup/cmd/cleanup@sha256:25ed7dacffaddb85acef8f65b34256e62f0d6c74db13f189799faa8f62e80098   
 
-gcr.io/knative-releases/knative.dev/serving/cmd/activator:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/activator
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/autoscaler-hpa
-gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/autoscaler
-gcr.io/knative-releases/knative.dev/serving/cmd/controller:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/controller
-gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/webhook
-gcr.io/knative-releases/knative.dev/serving/cmd/queue:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/queue
-gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/net-kourier/cmd/kourier
-gcr.io/knative-releases/knative.dev/serving/pkg/cleanup/cmd/cleanup:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/pkg/cleanup/cmd/cleanup
-gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate
-gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.22.1
-gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.22.1
-gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.21.1
-gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
+#gcr.io/knative-releases/knative.dev/serving/cmd/activator:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/activator
+#gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/autoscaler-hpa
+#gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/autoscaler
+#gcr.io/knative-releases/knative.dev/serving/cmd/controller:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/controller
+#gcr.io/knative-releases/knative.dev/serving/cmd/webhook:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/webhook
+#gcr.io/knative-releases/knative.dev/serving/cmd/queue:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/cmd/queue
+#gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/net-kourier/cmd/kourier
+#gcr.io/knative-releases/knative.dev/serving/pkg/cleanup/cmd/cleanup:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/serving/pkg/cleanup/cmd/cleanup
+#gcr.io/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/pkg/apiextensions/storageversion/cmd/migrate
+#gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.22.1
+#gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.22.1
+#gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.21.1
+#gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
 
