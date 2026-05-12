@@ -113,5 +113,5 @@ gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:371c23206b7bd924474
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:v0.5.1-ee: docker.io/opencsghq/agenticflow:v0.5.1-ee
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.5.1-ee: docker.io/opencsghq/csgbot:v0.5.1-ee
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox:20260430v1: docker.io/opencsghq/genius-sandbox:20260430v1
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/doc-sandbox:latest: docker.io/opencsghq/doc-sandbox:latest
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/openclaw-sandbox:20260331.20260408.4: docker.io/opencsghq/openclaw-sandbox:20260331.20260408.4
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/doc-sandbox:20260416.2: docker.io/opencsghq/doc-sandbox:20260416.2
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/openclaw-sandbox:20260408.4: docker.io/opencsghq/openclaw-sandbox:20260408.4
