@@ -45,12 +45,12 @@ jobs:
           set -e
           
           if [ ! -f cron-images.yaml ]; then
-            echo "Error: sync-images.yaml not found!"
+            echo "Error: cron-images.yaml not found!"
             exit 1
           fi
           
-          echo "Running image-syncer command:"
-          image-syncer --auth=./auth.yaml --images=./sync-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
+          echo "Running cron image-syncer command:"
+          image-syncer --auth=./auth.yaml --images=./cron-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
           
       - name: Run general image-syncer
         if: github.event_name != 'schedule'
