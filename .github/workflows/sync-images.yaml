@@ -6,7 +6,7 @@ on:
     paths:
       - 'sync-images.yaml'
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "35 10 * * *"
 
 jobs:
   sync-images:
