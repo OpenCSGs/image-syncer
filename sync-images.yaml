@@ -15,7 +15,7 @@
 # docker.io/mongo:4.4.30: docker.io/opencsghq/mongo
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/postgres:15.17,16.13,17.9: docker.io/opencsghq/postgres
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.0-fdb: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.1-fdb
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub: docker.io/opencsghq/omnibus-csghub
+# opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub: docker.io/opencsghq/omnibus-csghub
 # docker.io/opencsghq/omnibus-csghub:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:latest
 # docker.io/envoyproxy/envoy:v1.36-latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
 
