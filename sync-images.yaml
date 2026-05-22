@@ -15,7 +15,7 @@
 # docker.io/mongo:4.4.30: docker.io/opencsghq/mongo
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/postgres:15.17,16.13,17.9: docker.io/opencsghq/postgres
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.0-fdb: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v1.15.1-fdb
-# opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v1.16.0-ee: docker.io/opencsghq/omnibus-csghub:latest
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub: docker.io/opencsghq/omnibus-csghub
 # docker.io/opencsghq/omnibus-csghub:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:latest
 # docker.io/envoyproxy/envoy:v1.36-latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
 
@@ -110,7 +110,7 @@
 # ========================
 # AgenticHub
 # ========================
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow-importer:latest: docker.io/opencsghq/agenticflow-importer
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow-importer:latest: docker.io/opencsghq/agenticflow-importer
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:v0.5.1-ee: docker.io/opencsghq/agenticflow:v0.5.1-ee
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.5.1-ee: docker.io/opencsghq/csgbot:v0.5.1-ee
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox:20260430v1: docker.io/opencsghq/genius-sandbox:20260430v1
