@@ -1,5 +1,6 @@
 ---
 docker.io/alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
+golang:1.25-alpine,1.26.2-alpine: opencsg-registry-vpc.cn-beijing.cr.aliyuncs.com/opencsg_public/golang
 #docker.io/casbin/casdoor:3.62.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/casbin/casdoor
 ---
 # docker.io/alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
