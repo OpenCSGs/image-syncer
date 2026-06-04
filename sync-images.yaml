@@ -1,5 +1,6 @@
 ---
-docker.io/casbin/casdoor:3.62.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/casbin/casdoor
+docker.io/alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
+#docker.io/casbin/casdoor:3.62.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/casbin/casdoor
 ---
 # docker.io/alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
 # docker.io/memcached:1.6.38-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/memcached
