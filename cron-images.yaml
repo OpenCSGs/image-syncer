@@ -1,3 +1,3 @@
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:/v\d+.\d+.\d+-(ce|ee)/: docker.io/opencsghq/omnibus-csghub
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:latest: docker.io/opencsghq/omnibus-csghub
-alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
+docker.io/alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
