@@ -45,7 +45,7 @@ opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:toolbox-1.2
 # ========================
 # CSI / Sidecar（跨版本合集）
 # ========================
-ghcr.io/llm-d/llm-d-routing-sidecar:v0.8.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llm-d/llm-d-routing-sidecar:v0.8.0  
+ghcr.io/llm-d/llm-d-routing-sidecar:v0.8.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/llm-d/llm-d-routing-sidecar:v0.8.0  
 #docker.io/longhornio/csi-attacher:v4.10.0,v4.11.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-attacher
 #docker.io/longhornio/csi-node-driver-registrar:v2.15.0,v2.16.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-node-driver-registrar
 #docker.io/longhornio/csi-provisioner:v5.2.0,v5.3.0-20260225: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-provisioner
