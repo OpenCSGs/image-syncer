@@ -1,12 +1,23 @@
 ---
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:58acc91d: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/doc-sandbox:03c2897c: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/doc-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/openclaw-sandbox:03c2897c: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/openclaw-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/csgclaw-server-sandbox:2026060701: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/csgclaw-agent-sandbox:2026060301: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-agent-sandbox
 
-ghcr.io/llm-d/llm-d-benchmark:v0.5.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llm-d/llm-d-benchmark:v0.5.2
-registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-adapter/prometheus-adapter:v0.12.0
-ghcr.io/llm-d/llm-d-workload-variant-autoscaler:v0.5.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llm-d/llm-d-workload-variant-autoscaler:v0.5.1
-docker.io/lmsysorg/sglang:v0.5.11-cu130: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/sglang:v0.5.11-cu130
-docker.io/vllm/vllm-openai:v0.19.1-cu130: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm-openai:v0.19.1-cu130
-ghcr.io/llm-d/llm-d-router-endpoint-picker-dev:main: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llm-d/llm-d-router-endpoint-picker-dev:main
-ghcr.io/llm-d/llm-d-routing-sidecar:v0.8.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llm-d/llm-d-routing-sidecar:v0.8.0
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:58acc91d: docker.io/opencsghq/genius-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/doc-sandbox:03c2897c: docker.io/opencsghq/doc-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/openclaw-sandbox:03c2897c: docker.io/opencsghq/openclaw-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/csgclaw-server-sandbox:2026060701: docker.io/opencsghq/csgclaw-server-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/csgclaw-agent-sandbox:2026060301: docker.io/opencsghq/csgclaw-agent-sandbox
+
+# ghcr.io/llm-d/llm-d-benchmark:v0.5.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llm-d/llm-d-benchmark:v0.5.2
+# registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-adapter/prometheus-adapter:v0.12.0
+# ghcr.io/llm-d/llm-d-workload-variant-autoscaler:v0.5.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llm-d/llm-d-workload-variant-autoscaler:v0.5.1
+# docker.io/lmsysorg/sglang:v0.5.11-cu130: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/sglang:v0.5.11-cu130
+# docker.io/vllm/vllm-openai:v0.19.1-cu130: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm-openai:v0.19.1-cu130
+# ghcr.io/llm-d/llm-d-router-endpoint-picker-dev:main: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llm-d/llm-d-router-endpoint-picker-dev:main
+# ghcr.io/llm-d/llm-d-routing-sidecar:v0.8.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llm-d/llm-d-routing-sidecar:v0.8.0
 
 # golang:1.26.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/golang
 # golang:1.26.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/golang
