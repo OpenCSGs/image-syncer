@@ -1,12 +1,12 @@
 ---
-quay.io/prometheus/node-exporter:v1.11.1-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/node-exporter:v1.11.1-distroless
-quay.io/kiwigrid/k8s-sidecar:2.7.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/k8s-sidecar:2.7.3
-docker.io/grafana/grafana:13.0.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana:13.0.2
-registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kube-state-metrics:v2.19.1
-quay.io/prometheus-operator/prometheus-operator:v0.91.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator:v0.91.0
-quay.io/prometheus/alertmanager:v0.33.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alertmanager:v0.33.0
-quay.io/prometheus/prometheus:v3.12.0-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus:v3.12.0-distroless
-ghcr.io/jkroepke/kube-webhook-certgen:1.8.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kube-webhook-certgen:1.8.3
+quay.io/prometheus/node-exporter:v1.11.1-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/node-exporter:v1.11.1-distroless
+quay.io/kiwigrid/k8s-sidecar:2.7.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kiwigrid/k8s-sidecar:2.7.3
+docker.io/grafana/grafana:13.0.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana/grafana:13.0.2
+registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kube-state-metrics/kube-state-metrics:v2.19.1
+quay.io/prometheus-operator/prometheus-operator:v0.91.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator/prometheus-operator:v0.91.0
+quay.io/prometheus/alertmanager:v0.33.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/alertmanager:v0.33.0
+quay.io/prometheus/prometheus:v3.12.0-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/prometheus:v3.12.0-distroless
+ghcr.io/jkroepke/kube-webhook-certgen:1.8.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/jkroepke/kube-webhook-certgen:1.8.3
 
 
 
