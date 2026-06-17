@@ -1,4 +1,15 @@
 ---
+quay.io/prometheus/node-exporter:v1.11.1-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/node-exporter:v1.11.1-distroless
+quay.io/kiwigrid/k8s-sidecar:2.7.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/k8s-sidecar:2.7.3
+docker.io/grafana/grafana:13.0.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana:13.0.2
+registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kube-state-metrics:v2.19.1
+quay.io/prometheus-operator/prometheus-operator:v0.91.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator:v0.91.0
+quay.io/prometheus/alertmanager:v0.33.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alertmanager:v0.33.0
+quay.io/prometheus/prometheus:v3.12.0-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus:v3.12.0-distroless
+ghcr.io/jkroepke/kube-webhook-certgen:1.8.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kube-webhook-certgen:1.8.3
+
+
+
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:58acc91d: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/doc-sandbox:03c2897c: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/doc-sandbox
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/openclaw-sandbox:03c2897c: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/openclaw-sandbox
@@ -141,8 +152,8 @@
 # gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.22.1
 # gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/operator:v1.21.1
 # gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/operator/cmd/webhook:v1.21.1
-gcr.io/knative-releases/knative.dev/net-gateway-api/cmd/controller:v1.22.0,v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/net-gateway-api/cmd/controller
-gcr.io/knative-releases/knative.dev/net-gateway-api/cmd/webhook:v1.22.0,v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/net-gateway-api/cmd/webhook
+#gcr.io/knative-releases/knative.dev/net-gateway-api/cmd/controller:v1.22.0,v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/net-gateway-api/cmd/controller
+#gcr.io/knative-releases/knative.dev/net-gateway-api/cmd/webhook:v1.22.0,v1.22.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/knative-releases/knative.dev/net-gateway-api/cmd/webhook
 
 # ========================
 # AgenticHub
