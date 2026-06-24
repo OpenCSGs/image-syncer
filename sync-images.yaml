@@ -1,7 +1,7 @@
 ---
 
-docker.io/library/busybox:1.38.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/library/busybox:1.38.0
-docker.io/grafana/grafana:13.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana/grafana:13.1.0
+#docker.io/library/busybox:1.38.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/library/busybox:1.38.0
+#docker.io/grafana/grafana:13.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana/grafana:13.1.0
 #docker.io/python:3.13-slim: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/python
 #docker.io/longhornio/csi-attacher:v4.10.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-attacher:v4.10.0-20251030
 #docker.io/longhornio/csi-node-driver-registrar:v2.15.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-node-driver-registrar:v2.15.0-20251030
@@ -22,7 +22,7 @@ docker.io/grafana/grafana:13.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/op
 #quay.io/prometheus-operator/prometheus-operator:v0.91.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator/prometheus-operator:v0.91.0
 #quay.io/prometheus/alertmanager:v0.33.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/alertmanager:v0.33.0
 #quay.io/prometheus/prometheus:v3.12.0-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/prometheus:v3.12.0-distroless
-#ghcr.io/jkroepke/kube-webhook-certgen:1.8.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/jkroepke/kube-webhook-certgen:1.8.3
+ghcr.io/jkroepke/kube-webhook-certgen:1.8.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/jkroepke/kube-webhook-certgen:1.8.4
 
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:58acc91d: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/doc-sandbox:03c2897c: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/doc-sandbox
