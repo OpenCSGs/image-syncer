@@ -1,5 +1,6 @@
 ---
 
+docker.io/library/busybox:1.38.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/library/busybox:1.38.0
 docker.io/grafana/grafana:13.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana/grafana:13.1.0
 #docker.io/python:3.13-slim: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/python
 #docker.io/longhornio/csi-attacher:v4.10.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-attacher:v4.10.0-20251030
