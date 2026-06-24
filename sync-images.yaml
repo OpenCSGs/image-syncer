@@ -16,13 +16,14 @@
 #docker.io/longhornio/longhorn-ui:v1.10.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-ui:v1.10.1
 
 #quay.io/prometheus/node-exporter:v1.11.1-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/node-exporter:v1.11.1-distroless
-quay.io/kiwigrid/k8s-sidecar:2.8.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kiwigrid/k8s-sidecar:2.8.0
-docker.io/grafana/grafana:13.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana/grafana:13.1.0
+docker.io/prometheus-operator/prometheus-config-reloader:v0.92.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator/prometheus-config-reloader:v0.92.0
+#quay.io/kiwigrid/k8s-sidecar:2.8.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kiwigrid/k8s-sidecar:2.8.0
+#docker.io/grafana/grafana:13.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana/grafana:13.1.0
 #registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kube-state-metrics/kube-state-metrics:v2.19.1
-quay.io/prometheus-operator/prometheus-operator:v0.92.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator/prometheus-operator:v0.92.0
+#quay.io/prometheus-operator/prometheus-operator:v0.92.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator/prometheus-operator:v0.92.0
 #quay.io/prometheus/alertmanager:v0.33.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/alertmanager:v0.33.0
 #quay.io/prometheus/prometheus:v3.12.0-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/prometheus:v3.12.0-distroless
-ghcr.io/jkroepke/kube-webhook-certgen:1.8.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/jkroepke/kube-webhook-certgen:1.8.4
+#ghcr.io/jkroepke/kube-webhook-certgen:1.8.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/jkroepke/kube-webhook-certgen:1.8.4
 
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:58acc91d: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/doc-sandbox:03c2897c: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/doc-sandbox
