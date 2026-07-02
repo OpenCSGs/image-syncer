@@ -1,7 +1,10 @@
 ---
+
+nvcr.io/nvidia/k8s/dcgm-exporter:4.5.3-4.8.2-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s/dcgm-exporter:4.5.3-4.8.2-distroless
+
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6-4: docker.io/opencsghq/agenticflow
 # opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.2-ee: docker.io/opencsghq/csgbot
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow-importer:v1.0.4: docker.io/opencsghq/agenticflow-importer
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow-importer:v1.0.4: docker.io/opencsghq/agenticflow-importer
 
 # docker.io/envoyproxy/envoy:distroless-v1.37.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
 
