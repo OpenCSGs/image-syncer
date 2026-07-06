@@ -1,7 +1,7 @@
 ---
-
-docker.io/grafana/alloy:v1.17.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/alloy
-quay.io/prometheus-operator/prometheus-config-reloader:v0.91.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-operator/prometheus-config-reloader
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v2.2.1-api: docker.io/opencsghq/dataflow:v2.2.1-api
+#docker.io/grafana/alloy:v1.17.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/alloy
+#quay.io/prometheus-operator/prometheus-config-reloader:v0.91.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-operator/prometheus-config-reloader
 
 #nvcr.io/nvidia/k8s/dcgm-exporter:4.5.3-4.8.2-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s/dcgm-exporter:4.5.3-4.8.2-distroless
 
