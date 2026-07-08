@@ -1,5 +1,7 @@
 ---
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v2.2.1-api: docker.io/opencsghq/dataflow:v2.2.1-api
+foundationdb/foundationdb:7.3.69: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/foundationdb/foundationdb:7.3.69
+
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v2.2.1-api: docker.io/opencsghq/dataflow:v2.2.1-api
 #docker.io/grafana/alloy:v1.17.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/alloy
 #quay.io/prometheus-operator/prometheus-config-reloader:v0.91.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-operator/prometheus-config-reloader
 
