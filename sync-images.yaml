@@ -1,5 +1,18 @@
 ---
-foundationdb/foundationdb:7.3.69: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/foundationdb/foundationdb:7.3.69
+quay.io/prometheus-operator/prometheus-config-reloader:v0.92.1: docker.io/opencsghq/prometheus-config-reloader
+docker.io/opencsghq/prometheus-config-reloader:v0.92.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-config-reloader
+
+quay.io/prometheus/prometheus:v3.13.0: docker.io/opencsghq/prometheus
+docker.io/opencsghq/prometheus:v3.13.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus
+
+registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: docker.io/opencsghq/kube-state-metrics:v2.19.1
+docker.io/opencsghq/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/kube-state-metrics
+
+quay.io/prometheus/node-exporter:v1.11.1: docker.io/opencsghq/prometheus-node-exporter
+docker.io/opencsghq/prometheus-node-exporter:v1.11.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-node-exporter
+
+
+# foundationdb/foundationdb:7.3.69: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/foundationdb/foundationdb:7.3.69
 
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v2.2.1-api: docker.io/opencsghq/dataflow:v2.2.1-api
 #docker.io/grafana/alloy:v1.17.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/alloy
