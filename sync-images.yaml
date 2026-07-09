@@ -1,15 +1,18 @@
 ---
-quay.io/prometheus-operator/prometheus-config-reloader:v0.92.1: docker.io/opencsghq/prometheus-config-reloader
-docker.io/opencsghq/prometheus-config-reloader:v0.92.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-config-reloader
+ghcr.io/stakater/reloader:v1.4.19: docker.io/opencsghq/stakater-reloader:v1.4.19
+docker.io/opencsghq/stakater-reloader:v1.4.19: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/stakater-reloader:v1.4.19
 
-quay.io/prometheus/prometheus:v3.13.0: docker.io/opencsghq/prometheus
-docker.io/opencsghq/prometheus:v3.13.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus
+# quay.io/prometheus-operator/prometheus-config-reloader:v0.92.1: docker.io/opencsghq/prometheus-config-reloader
+# docker.io/opencsghq/prometheus-config-reloader:v0.92.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-config-reloader
 
-registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: docker.io/opencsghq/kube-state-metrics:v2.19.1
-docker.io/opencsghq/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/kube-state-metrics
+# quay.io/prometheus/prometheus:v3.13.0: docker.io/opencsghq/prometheus
+# docker.io/opencsghq/prometheus:v3.13.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus
 
-quay.io/prometheus/node-exporter:v1.11.1: docker.io/opencsghq/prometheus-node-exporter
-docker.io/opencsghq/prometheus-node-exporter:v1.11.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-node-exporter
+# registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: docker.io/opencsghq/kube-state-metrics:v2.19.1
+# docker.io/opencsghq/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/kube-state-metrics
+
+# quay.io/prometheus/node-exporter:v1.11.1: docker.io/opencsghq/prometheus-node-exporter
+# docker.io/opencsghq/prometheus-node-exporter:v1.11.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-node-exporter
 
 
 # foundationdb/foundationdb:7.3.69: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/foundationdb/foundationdb:7.3.69
