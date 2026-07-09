@@ -1,6 +1,9 @@
 ---
-ghcr.io/stakater/reloader:v1.4.19: docker.io/opencsghq/stakater-reloader:v1.4.19
-docker.io/opencsghq/stakater-reloader:v1.4.19: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/stakater-reloader:v1.4.19
+docker.io/envoyproxy/gateway:v1.7.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway:v1.7.5
+docker.io/envoyproxy/envoy:distroless-v1.37.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy:distroless-v1.37.5
+
+#ghcr.io/stakater/reloader:v1.4.19: docker.io/opencsghq/stakater-reloader:v1.4.19
+#docker.io/opencsghq/stakater-reloader:v1.4.19: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/stakater-reloader:v1.4.19
 
 # quay.io/prometheus-operator/prometheus-config-reloader:v0.92.1: docker.io/opencsghq/prometheus-config-reloader
 # docker.io/opencsghq/prometheus-config-reloader:v0.92.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-config-reloader
