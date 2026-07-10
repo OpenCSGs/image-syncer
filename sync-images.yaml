@@ -1,11 +1,16 @@
 ---
-docker.io/volcanosh/vc-controller-manager:v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-controller-manager
-docker.io/volcanosh/vc-scheduler:v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-scheduler
-docker.io/volcanosh/vc-webhook-manager:v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-webhook-manager
-docker.io/volcanosh/vc-agent:v1.14.1,v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-agent
-docker.io/volcanosh/vc-agent-scheduler:v1.14.1,v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-agent-scheduler
-docker.io/volcanosh/kube-state-metrics:v2.0.0-beta: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/kube-state-metrics
-docker.io/grafana/grafana:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/grafana
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6-5: docker.io/opencsghq/agenticflow:ee-v0.6-5
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.2-ee: docker.io/opencsghq/csgbot:v0.6.2-ee
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:2026070902: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox:2026070902
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox:2026070902: docker.io/opencsghq/genius-sandbox:2026070902
+
+#docker.io/volcanosh/vc-controller-manager:v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-controller-manager
+#docker.io/volcanosh/vc-scheduler:v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-scheduler
+#docker.io/volcanosh/vc-webhook-manager:v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-webhook-manager
+#docker.io/volcanosh/vc-agent:v1.14.1,v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-agent
+#docker.io/volcanosh/vc-agent-scheduler:v1.14.1,v1.14.3: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/vc-agent-scheduler
+#docker.io/volcanosh/kube-state-metrics:v2.0.0-beta: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/volcanosh/kube-state-metrics
+#docker.io/grafana/grafana:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/grafana
 
 #docker.io/envoyproxy/gateway:v1.7.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/gateway:v1.7.5
 #docker.io/envoyproxy/envoy:distroless-v1.37.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy:distroless-v1.37.5
