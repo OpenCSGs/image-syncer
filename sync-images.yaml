@@ -1,6 +1,8 @@
 ---
-apachesuperset.docker.scarf.sh/apache/superset:6.1.0-dev: docker.io/opencsghq/apache-superset:6.1.0-dev
-docker.io/opencsghq/apache-superset:6.1.0-dev: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/apache-superset:6.1.0-dev
+docker.io/vllm/vllm-openai:v0.25.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm-openai:v0.25.1
+
+#apachesuperset.docker.scarf.sh/apache/superset:6.1.0-dev: docker.io/opencsghq/apache-superset:6.1.0-dev
+#docker.io/opencsghq/apache-superset:6.1.0-dev: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/apache-superset:6.1.0-dev
 #docker.io/fraserpricee/vllm:dspark-cu132-20260627: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/fraserpricee/vllm:dspark-cu132-20260627
 
 #apachesuperset.docker.scarf.sh/apache/superset:6.1.0-dev,6.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/apache/superset
