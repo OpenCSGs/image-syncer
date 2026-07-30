@@ -1,5 +1,8 @@
 ---
-docker.io/vllm/vllm-openai:v0.25.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm-openai:v0.25.1
+
+docker.io/casbin/casdoor:3.125.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/casdoor:3.125.0
+
+#docker.io/vllm/vllm-openai:v0.25.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm-openai:v0.25.1
 
 #apachesuperset.docker.scarf.sh/apache/superset:6.1.0-dev: docker.io/opencsghq/apache-superset:6.1.0-dev
 #docker.io/opencsghq/apache-superset:6.1.0-dev: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/apache-superset:6.1.0-dev
