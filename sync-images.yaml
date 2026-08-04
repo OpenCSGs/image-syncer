@@ -1,5 +1,7 @@
 ---
-quay.io/prometheus/blackbox-exporter:v0.28.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus/blackbox-exporter:v0.28.0
+
+quay.io/prometheus-operator/prometheus-config-reloader:v0.93.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus-operator/prometheus-config-reloader:v0.93.0
+#quay.io/prometheus/blackbox-exporter:v0.28.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus/blackbox-exporter:v0.28.0
 #docker.io/casbin/casdoor:3.125.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/casdoor:3.125.0
 
 #docker.io/vllm/vllm-openai:v0.25.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm-openai:v0.25.1
