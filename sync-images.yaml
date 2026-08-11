@@ -1,6 +1,6 @@
 ---
-
-quay.io/prometheus-operator/prometheus-config-reloader:v0.93.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus-operator/prometheus-config-reloader:v0.93.0
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v2.3.1-ce,v2.3.1-ee,latest: docker.io/opencsghq/omnibus-csghub
+#quay.io/prometheus-operator/prometheus-config-reloader:v0.93.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus-operator/prometheus-config-reloader:v0.93.0
 #quay.io/prometheus/blackbox-exporter:v0.28.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus/blackbox-exporter:v0.28.0
 #docker.io/casbin/casdoor:3.125.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/casdoor:3.125.0
 
@@ -38,20 +38,20 @@ quay.io/prometheus-operator/prometheus-config-reloader:v0.93.0: opencsg-registry
 #ghcr.io/stakater/reloader:v1.4.19: docker.io/opencsghq/stakater-reloader:v1.4.19
 #docker.io/opencsghq/stakater-reloader:v1.4.19: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/stakater-reloader:v1.4.19
 
-# quay.io/prometheus-operator/prometheus-config-reloader:v0.92.1: docker.io/opencsghq/prometheus-config-reloader
-# docker.io/opencsghq/prometheus-config-reloader:v0.92.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-config-reloader
+#quay.io/prometheus-operator/prometheus-config-reloader:v0.92.1: docker.io/opencsghq/prometheus-config-reloader
+#docker.io/opencsghq/prometheus-config-reloader:v0.92.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-config-reloader
 
-# quay.io/prometheus/prometheus:v3.13.0: docker.io/opencsghq/prometheus
-# docker.io/opencsghq/prometheus:v3.13.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus
+#quay.io/prometheus/prometheus:v3.13.0: docker.io/opencsghq/prometheus
+#docker.io/opencsghq/prometheus:v3.13.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus
 
-# registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: docker.io/opencsghq/kube-state-metrics:v2.19.1
-# docker.io/opencsghq/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/kube-state-metrics
+#registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: docker.io/opencsghq/kube-state-metrics:v2.19.1
+#docker.io/opencsghq/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/kube-state-metrics
 
-# quay.io/prometheus/node-exporter:v1.11.1: docker.io/opencsghq/prometheus-node-exporter
-# docker.io/opencsghq/prometheus-node-exporter:v1.11.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-node-exporter
+#quay.io/prometheus/node-exporter:v1.11.1: docker.io/opencsghq/prometheus-node-exporter
+#docker.io/opencsghq/prometheus-node-exporter:v1.11.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/prometheus-node-exporter
 
 
-# foundationdb/foundationdb:7.3.69: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/foundationdb/foundationdb:7.3.69
+#foundationdb/foundationdb:7.3.69: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/foundationdb/foundationdb:7.3.69
 
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v2.2.1-api: docker.io/opencsghq/dataflow:v2.2.1-api
 #docker.io/grafana/alloy:v1.17.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/grafana/alloy
@@ -59,11 +59,11 @@ quay.io/prometheus-operator/prometheus-config-reloader:v0.93.0: opencsg-registry
 
 #nvcr.io/nvidia/k8s/dcgm-exporter:4.5.3-4.8.2-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nvidia/k8s/dcgm-exporter:4.5.3-4.8.2-distroless
 
-# opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6-4: docker.io/opencsghq/agenticflow
-# opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.2-ee: docker.io/opencsghq/csgbot
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6-4: docker.io/opencsghq/agenticflow
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.2-ee: docker.io/opencsghq/csgbot
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow-importer:v1.0.4: docker.io/opencsghq/agenticflow-importer
 
-# docker.io/envoyproxy/envoy:distroless-v1.37.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
+#docker.io/envoyproxy/envoy:distroless-v1.37.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/envoy
 
 #docker.io/library/busybox:1.38.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/library/busybox:1.38.0
 #docker.io/grafana/grafana:13.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana/grafana:13.1.0
@@ -81,7 +81,7 @@ quay.io/prometheus-operator/prometheus-config-reloader:v0.93.0: opencsg-registry
 #docker.io/longhornio/longhorn-ui:v1.10.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-ui:v1.10.1
 
 #quay.io/prometheus/node-exporter:v1.11.1-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/node-exporter:v1.11.1-distroless
-# quay.io/prometheus-operator/prometheus-config-reloader:v0.92.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator/prometheus-config-reloader:v0.92.0
+#quay.io/prometheus-operator/prometheus-config-reloader:v0.92.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator/prometheus-config-reloader:v0.92.0
 #quay.io/kiwigrid/k8s-sidecar:2.8.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kiwigrid/k8s-sidecar:2.8.0
 #docker.io/grafana/grafana:13.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana/grafana:13.1.0
 #registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/kube-state-metrics/kube-state-metrics:v2.19.1
