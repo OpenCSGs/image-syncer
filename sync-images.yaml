@@ -1,5 +1,6 @@
 ---
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v2.3.1-ce,v2.3.1-ee,latest: docker.io/opencsghq/omnibus-csghub
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v2.4.0-api: docker.io/opencsghq/dataflow
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v2.3.1-ce,v2.3.1-ee,latest: docker.io/opencsghq/omnibus-csghub
 #quay.io/prometheus-operator/prometheus-config-reloader:v0.93.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus-operator/prometheus-config-reloader:v0.93.0
 #quay.io/prometheus/blackbox-exporter:v0.28.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus/blackbox-exporter:v0.28.0
 #docker.io/casbin/casdoor:3.125.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/casdoor:3.125.0
