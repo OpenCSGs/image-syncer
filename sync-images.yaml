@@ -1,6 +1,7 @@
 ---
-docker.io/envoyproxy/ratelimit:f2fb1577: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v2.4.0-api: docker.io/opencsghq/dataflow
+docker.io/nginx:1.30.4-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/nginx
+#docker.io/envoyproxy/ratelimit:f2fb1577: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v2.4.0-api: docker.io/opencsghq/dataflow
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:v2.3.1-ce,v2.3.1-ee,latest: docker.io/opencsghq/omnibus-csghub
 #quay.io/prometheus-operator/prometheus-config-reloader:v0.93.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus-operator/prometheus-config-reloader:v0.93.0
 #quay.io/prometheus/blackbox-exporter:v0.28.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/prometheus/blackbox-exporter:v0.28.0
