@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'sync-images.yaml'
+      - 'check-images.yaml'
   schedule:
     - cron: "0 0 * * *"
 
@@ -64,4 +65,12 @@ jobs:
           
           echo "Running image-syncer command:"
           image-syncer --auth=./auth.yaml --images=./sync-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
-      
+
+          if [ ! -f check-images.yaml ]; then
+            echo "Error: check-images.yaml not found!"
+            exit 1
+          fi
+
+          echo "Running image-syncer command:"
+          image-syncer --auth=./auth.yaml --images=./check-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
+
