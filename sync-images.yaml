@@ -1,6 +1,6 @@
 ---
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.7-ee: docker.io/opencsghq/csgbot:v0.6.7-ee
-opencsg-registry-vpc.cn-beijing.cr.aliyuncs.com/opencsg_public/csgclaw-server-sandbox:2026080703: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026080703
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/csgclaw-server-sandbox:2026080703: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026080703
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026080703: docker.io/opencsghq/csgclaw-server-sandbox:2026080703
 
 docker.io/nginx:1.30.4-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/nginx
