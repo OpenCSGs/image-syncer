@@ -1,4 +1,7 @@
 ---
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.7-ee: docker.io/opencsghq/csgbot:v0.6.7-ee
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026080703: docker.io/opencsghq/csgclaw-server-sandbox:2026080703
+
 docker.io/nginx:1.30.4-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/nginx
 #docker.io/envoyproxy/ratelimit:f2fb1577: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/envoyproxy/ratelimit
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/dataflow:v2.4.0-api: docker.io/opencsghq/dataflow
