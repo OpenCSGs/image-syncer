@@ -1,4 +1,5 @@
 ---
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm:v0.20.1: docker.io/opencsghq/vllm:v0.20.1
 ghcr.io/posthog/posthog/livestream:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/livestream
 ghcr.io/posthog/posthog/capture:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/capture
 ghcr.io/posthog/posthog/capture-logs:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/capture-logs
