@@ -66,7 +66,8 @@ opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/sglang:v0.5.14-cu130: dock
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm:v0.24.0: docker.io/opencsghq/vllm:v0.24.0
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llama-factory-amd:0.9.5: docker.io/opencsghq/llama-factory-amd:0.9.5
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/llama-factory:0.9.5: docker.io/opencsghq/llama-factory:0.9.5
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/claw-eval:1.0.0: docker.io/opencsghq/claw-eval:1.0.0opencsg-registry.cn-beijing.cr.aliyuncs.com/
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/claw-eval:1.0.0: docker.io/opencsghq/claw-eval:1.0.0
+
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm:v0.20.1: docker.io/opencsghq/vllm:v0.20.1
 #ghcr.io/posthog/posthog/livestream:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/livestream
 #ghcr.io/posthog/posthog/capture:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/capture
