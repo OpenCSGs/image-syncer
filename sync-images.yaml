@@ -1,5 +1,31 @@
 ---
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/vllm:v0.20.1: docker.io/opencsghq/vllm:v0.20.1
+#ghcr.io/posthog/posthog/livestream:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/livestream
+#ghcr.io/posthog/posthog/capture:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/capture
+#ghcr.io/posthog/posthog/capture-logs:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/capture-logs
+#ghcr.io/posthog/posthog/cyclotron-janitor:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/cyclotron-janitor
+#ghcr.io/posthog/posthog/cymbal:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/cymbal
+#ghcr.io/posthog/posthog/feature-flags:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/feature-flags
+#ghcr.io/posthog/posthog/hypercache-server:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/hypercache-server
+#ghcr.io/posthog/posthog/personhog-replica:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/personhog-replica
+#ghcr.io/posthog/posthog/personhog-router:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/personhog-router
+#ghcr.io/posthog/posthog/property-defs-rs:master: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog/property-defs-rs
+#docker.io/posthog/posthog:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog
+#docker.io/posthog/posthog-node:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/posthog/posthog-node
+#docker.io/postgres:15.12-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/postgres
+#docker.io/redis:7.2-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/redis
+#docker.io/valkey/valkey:8.1-alpine: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/valkey/valkey
+#docker.io/zookeeper:3.7.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/zookeeper
+#docker.io/clickhouse/clickhouse-server:26.6.2.158: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/clickhouse/clickhouse-server
+#docker.io/redpandadata/redpanda:v25.1.9: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/redpandadata/redpanda
+#docker.io/caddy:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/caddy
+#docker.io/elasticsearch:7.17.28: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/elasticsearch
+#docker.io/chrislusf/seaweedfs:4.29: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/chrislusf/seaweedfs
+#docker.io/minio/minio:RELEASE.2025-04-22T22-12-26Z: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/minio/minio
+#ghcr.io/browserless/chromium:v2.51.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/browserless/chromium
+#docker.io/temporalio/auto-setup:1.26.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/temporalio/auto-setup
+#docker.io/temporalio/admin-tools:1.26.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/temporalio/admin-tools
+#docker.io/temporalio/ui:2.47.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/temporalio/ui
 
 
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.7-ee: docker.io/opencsghq/csgbot:v0.6.7-ee
