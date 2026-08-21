@@ -56,21 +56,14 @@ jobs:
       - name: Run general image-syncer
         if: github.event_name != 'schedule'
         run: |
-          set -e
-          
-          if [ ! -f sync-images.yaml ]; then
-            echo "Error: sync-images.yaml not found!"
-            exit 1
+          if [ -f sync-images.yaml ]; then
+            echo "Running image-syncer command:"
+            image-syncer --auth=./auth.yaml --images=./sync-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
           fi
           
-          echo "Running image-syncer command:"
-          image-syncer --auth=./auth.yaml --images=./sync-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
-
-          if [ ! -f check-images.yaml ]; then
-            echo "Error: check-images.yaml not found!"
-            exit 1
+          if [ -f check-images.yaml ]; then
+            echo "Running image-syncer command:"
+            image-syncer --auth=./auth.yaml --images=./check-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
           fi
 
-          echo "Running image-syncer command:"
-          image-syncer --auth=./auth.yaml --images=./check-images.yaml --arch=amd64 --arch=arm64 --os=linux --proc=10 --retries=2
-
+          
