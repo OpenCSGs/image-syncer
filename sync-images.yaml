@@ -1,7 +1,19 @@
 ---
-quay.io/argoproj/argocli:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argocli
-quay.io/argoproj/workflow-controller:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/workflow-controller
-quay.io/argoproj/argoexec:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argoexec
+#docker.io/longhornio/csi-attacher:v4.10.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-attacher:v4.10.0-20251030
+#docker.io/longhornio/csi-node-driver-registrar:v2.15.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-node-driver-registrar:v2.15.0-20251030
+#docker.io/longhornio/csi-provisioner:v5.3.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-provisioner:v5.3.0-20251030
+#docker.io/longhornio/csi-resizer:v1.14.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-resizer:v1.14.0-20251030
+#docker.io/longhornio/csi-snapshotter:v8.4.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-snapshotter:v8.4.0-20251030
+#docker.io/longhornio/livenessprobe:v2.17.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/livenessprobe:v2.17.0-20251030
+docker.io/longhornio/longhorn-engine:v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-engine
+docker.io/longhornio/longhorn-instance-manager:v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-instance-manager
+docker.io/longhornio/longhorn-manager:v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-manager
+docker.io/longhornio/longhorn-share-manager:v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-share-manager
+docker.io/longhornio/longhorn-ui:v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-ui
+
+#quay.io/argoproj/argocli:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argocli
+#quay.io/argoproj/workflow-controller:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/workflow-controller
+#quay.io/argoproj/argoexec:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argoexec
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/label-studio:v2.2.3: docker.io/opencsghq/label-studio
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/diffusers-rocm:0.38.0: docker.io/opencsghq/diffusers-rocm:0.38.0
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/funasr-rocm:1.3.9: docker.io/opencsghq/funasr-rocm:1.3.9
@@ -178,17 +190,6 @@ quay.io/argoproj/argoexec:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/o
 #docker.io/library/busybox:1.38.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/library/busybox:1.38.0
 #docker.io/grafana/grafana:13.1.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/grafana/grafana:13.1.0
 #docker.io/python:3.13-slim: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/python
-#docker.io/longhornio/csi-attacher:v4.10.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-attacher:v4.10.0-20251030
-#docker.io/longhornio/csi-node-driver-registrar:v2.15.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-node-driver-registrar:v2.15.0-20251030
-#docker.io/longhornio/csi-provisioner:v5.3.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-provisioner:v5.3.0-20251030
-#docker.io/longhornio/csi-resizer:v1.14.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-resizer:v1.14.0-20251030
-#docker.io/longhornio/csi-snapshotter:v8.4.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-snapshotter:v8.4.0-20251030
-#docker.io/longhornio/livenessprobe:v2.17.0-20251030: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/livenessprobe:v2.17.0-20251030
-#docker.io/longhornio/longhorn-engine:v1.10.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-engine:v1.10.1
-#docker.io/longhornio/longhorn-instance-manager:v1.10.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-instance-manager:v1.10.1
-#docker.io/longhornio/longhorn-manager:v1.10.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-manager:v1.10.1
-#docker.io/longhornio/longhorn-share-manager:v1.10.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-share-manager:v1.10.1
-#docker.io/longhornio/longhorn-ui:v1.10.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-ui:v1.10.1
 
 #quay.io/prometheus/node-exporter:v1.11.1-distroless: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus/node-exporter:v1.11.1-distroless
 #quay.io/prometheus-operator/prometheus-config-reloader:v0.92.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/prometheus-operator/prometheus-config-reloader:v0.92.0
