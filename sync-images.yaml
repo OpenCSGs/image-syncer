@@ -1,16 +1,16 @@
 ---
-docker.io/longhornio/csi-attacher:v4.9.0-20250826,v4.10.0-20251226,v4.10.0-20251030,v4.11.0,v4.11.0-20260428,v4.12.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-attacher
-docker.io/longhornio/csi-node-driver-registrar:v2.14.0-20250826,v2.15.0-20251226,v2.15.0-20251030,v2.16.0-20260428,v2.17.0,v2.16.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-node-driver-registrar
-docker.io/longhornio/csi-provisioner:v5.3.0-20250826,v5.3.0-20251226,v5.3.0-20251030,v5.3.0-20260514,v5.3.0-20260428,v5.3.0-20260225,v5.3.0,v6.3.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-provisioner
-docker.io/longhornio/csi-resizer:v1.14.0-20250826,v2.0.0-20251226,v1.14.0-20251030,v2.1.0-20260514,v2.1.0-20260428,v2.1.0,v2.2.0,v2.2.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-resizer
-docker.io/longhornio/csi-snapshotter:v8.3.0-20250826,v8.4.0-20251226,v8.4.0-20251030,v8.5.0-20260514,v8.5.0,v8.5.0-20260428,v8.6.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-snapshotter
-docker.io/longhornio/livenessprobe:v2.16.0-20250826,v2.17.0-20251226,v2.17.0-20251030,v2.18.0-20260428,v2.18.0,v2.19.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/livenessprobe
-docker.io/longhornio/longhorn-engine:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-engine
-docker.io/longhornio/longhorn-instance-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-instance-manager
-docker.io/longhornio/longhorn-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-manager
-docker.io/longhornio/longhorn-share-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-share-manager
-docker.io/longhornio/longhorn-ui:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-ui
-docker.io/longhornio/backing-image-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/backing-image-manager
+#docker.io/longhornio/csi-attacher:v4.9.0-20250826,v4.10.0-20251226,v4.10.0-20251030,v4.11.0,v4.11.0-20260428,v4.12.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-attacher
+#docker.io/longhornio/csi-node-driver-registrar:v2.14.0-20250826,v2.15.0-20251226,v2.15.0-20251030,v2.16.0-20260428,v2.17.0,v2.16.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-node-driver-registrar
+#docker.io/longhornio/csi-provisioner:v5.3.0-20250826,v5.3.0-20251226,v5.3.0-20251030,v5.3.0-20260514,v5.3.0-20260428,v5.3.0-20260225,v5.3.0,v6.3.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-provisioner
+#docker.io/longhornio/csi-resizer:v1.14.0-20250826,v2.0.0-20251226,v1.14.0-20251030,v2.1.0-20260514,v2.1.0-20260428,v2.1.0,v2.2.0,v2.2.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-resizer
+#docker.io/longhornio/csi-snapshotter:v8.3.0-20250826,v8.4.0-20251226,v8.4.0-20251030,v8.5.0-20260514,v8.5.0,v8.5.0-20260428,v8.6.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-snapshotter
+#docker.io/longhornio/livenessprobe:v2.16.0-20250826,v2.17.0-20251226,v2.17.0-20251030,v2.18.0-20260428,v2.18.0,v2.19.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/livenessprobe
+#docker.io/longhornio/longhorn-engine:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-engine
+#docker.io/longhornio/longhorn-instance-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-instance-manager
+#docker.io/longhornio/longhorn-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-manager
+#docker.io/longhornio/longhorn-share-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-share-manager
+#docker.io/longhornio/longhorn-ui:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-ui
+#docker.io/longhornio/backing-image-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/backing-image-manager
 
 #quay.io/argoproj/argocli:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argocli
 #quay.io/argoproj/workflow-controller:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/workflow-controller
@@ -141,7 +141,7 @@ docker.io/longhornio/backing-image-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11
 #docker.io/temporalio/auto-setup:1.29.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/auto-setup:1.29.7
 #docker.io/temporalio/ui:2.48.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/ui:2.48.4
 
-#registry.k8s.io/agent-sandbox/agent-sandbox-controller:v0.4.6: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agent-sandbox/agent-sandbox-controller:v0.4.6
+registry.k8s.io/agent-sandbox/agent-sandbox-controller:v0.5.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agent-sandbox/agent-sandbox-controller:v0.5.4
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6-5: docker.io/opencsghq/agenticflow:ee-v0.6-5
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.2-ee: docker.io/opencsghq/csgbot:v0.6.2-ee
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:2026070902: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox:2026070902
