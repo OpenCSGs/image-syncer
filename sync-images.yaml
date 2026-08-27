@@ -10,6 +10,7 @@ docker.io/longhornio/longhorn-instance-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v
 docker.io/longhornio/longhorn-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-manager
 docker.io/longhornio/longhorn-share-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-share-manager
 docker.io/longhornio/longhorn-ui:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/longhorn-ui
+docker.io/longhornio/backing-image-manager:v1.10.0,v1.10.1,v1.10.2,v1.11.0,v1.11.1,v1.11.2,v1.11.3,v1.12.0,v1.12.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/backing-image-manager
 
 #quay.io/argoproj/argocli:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argocli
 #quay.io/argoproj/workflow-controller:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/workflow-controller
