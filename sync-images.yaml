@@ -2,7 +2,7 @@
 registry.gitlab.com/gitlab-org/build/cng/gitlab-shell:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell
 registry.gitlab.com/gitlab-org/build/cng/gitaly:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitaly
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell:v19.2.5: docker.io/opencsghq/gitlab-shell
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitlay:v19.2.5: docker.io/opencsghq/gitlab-gitlay
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitaly:v19.2.5: docker.io/opencsghq/gitlab-gitaly
 
 #docker.io/ubuntu:26.04: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/ubuntu
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow-importer:v1.0.5: docker.io/opencsghq/agenticflow-importer
