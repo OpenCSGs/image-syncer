@@ -1,5 +1,10 @@
 ---
-docker.io/ubuntu:26.04: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/ubuntu
+registry.gitlab.com/gitlab-org/build/cng/gitlab-shell:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell
+registry.gitlab.com/gitlab-org/build/cng/gitaly:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitaly
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell:v19.2.5: docker.io/opencsghq/gitlab-shell
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitlay:v19.2.5: docker.io/opencsghq/gitlab-gitlay
+
+#docker.io/ubuntu:26.04: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/ubuntu
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow-importer:v1.0.5: docker.io/opencsghq/agenticflow-importer
 #docker.io/longhornio/csi-attacher:v4.9.0-20250826,v4.10.0-20251226,v4.10.0-20251030,v4.11.0,v4.11.0-20260428,v4.12.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-attacher
 #docker.io/longhornio/csi-node-driver-registrar:v2.14.0-20250826,v2.15.0-20251226,v2.15.0-20251030,v2.16.0-20260428,v2.17.0,v2.16.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/longhornio/csi-node-driver-registrar
