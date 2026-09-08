@@ -1,8 +1,12 @@
 ---
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026090405: docker.io/opencsghq/csgclaw-server-sandbox
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:2026081102: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox:2026081102: docker.io/opencsghq/genius-sandbox
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6.5-1: docker.io/opencsghq/agenticflow
+docker.io/redis:7.4.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/redis
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/postgres:15.19,16.15: docker.io/opencsghq/postgres
+docker.io/casbin/casdoor:3.62.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/casbin/casdoor
+docker.io/nats:2.12.15: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nats
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026090405: docker.io/opencsghq/csgclaw-server-sandbox
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:2026081102: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox:2026081102: docker.io/opencsghq/genius-sandbox
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6.5-1: docker.io/opencsghq/agenticflow
 #registry.gitlab.com/gitlab-org/build/cng/gitlab-shell:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell
 #registry.gitlab.com/gitlab-org/build/cng/gitaly:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitaly
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell:v19.2.5: docker.io/opencsghq/gitlab-shell
