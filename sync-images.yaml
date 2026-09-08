@@ -1,8 +1,12 @@
 ---
-registry.gitlab.com/gitlab-org/build/cng/gitlab-shell:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell
-registry.gitlab.com/gitlab-org/build/cng/gitaly:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitaly
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell:v19.2.5: docker.io/opencsghq/gitlab-shell
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitaly:v19.2.5: docker.io/opencsghq/gitlab-gitaly
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026090405: docker.io/opencsghq/csgclaw-server-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:2026081102: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox:2026081102: docker.io/opencsghq/genius-sandbox
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6.5-1: docker.io/opencsghq/agenticflow
+#registry.gitlab.com/gitlab-org/build/cng/gitlab-shell:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell
+#registry.gitlab.com/gitlab-org/build/cng/gitaly:v19.2.5: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitaly
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-shell:v19.2.5: docker.io/opencsghq/gitlab-shell
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/gitlab-gitaly:v19.2.5: docker.io/opencsghq/gitlab-gitaly
 
 #docker.io/ubuntu:26.04: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/ubuntu
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow-importer:v1.0.5: docker.io/opencsghq/agenticflow-importer
