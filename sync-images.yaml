@@ -124,10 +124,6 @@
 #docker.io/chrislusf/seaweedfs:4.29: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/chrislusf/seaweedfs
 #docker.io/minio/minio:RELEASE.2025-04-22T22-12-26Z: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/minio/minio
 #ghcr.io/browserless/chromium:v2.51.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/browserless/chromium
-#docker.io/temporalio/auto-setup:1.26.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/temporalio/auto-setup
-#docker.io/temporalio/admin-tools:1.26.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/temporalio/admin-tools
-#docker.io/temporalio/ui:2.47.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/temporalio/ui
-
 
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.7-ee: docker.io/opencsghq/csgbot:v0.6.7-ee
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/csgclaw-server-sandbox:2026080703: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026080703
@@ -153,8 +149,10 @@
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:0.6.4-ee: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.4-ee
 #docker.io/nats:2.12.12: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/nats:2.12.12
 #docker.io/redis:7.4.9: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/redis:7.4.9
-#docker.io/temporalio/auto-setup:1.29.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/auto-setup:1.29.7
-#docker.io/temporalio/ui:2.48.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/ui:2.48.4
+#docker.io/temporalio/auto-setup:1.29.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/auto-setup # DEPRECATED
+docker.io/temporalio/admin-tools:1.32.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/admin-tools
+docker.io/temporalio/server:1.32.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/server
+docker.io/temporalio/ui:2.54.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/ui
 
 #registry.k8s.io/agent-sandbox/agent-sandbox-controller:v0.5.4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agent-sandbox/agent-sandbox-controller:v0.5.4
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6-5: docker.io/opencsghq/agenticflow:ee-v0.6-5
