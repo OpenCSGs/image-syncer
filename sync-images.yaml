@@ -31,6 +31,7 @@
 #quay.io/argoproj/workflow-controller:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/workflow-controller
 #quay.io/argoproj/argoexec:v3.7.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/argoproj/argoexec
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/label-studio:v2.2.3: docker.io/opencsghq/label-studio
+opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/label-studio:v2.2.4-llm-back: docker.io/opencsghq/label-studio
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/diffusers-rocm:0.38.0: docker.io/opencsghq/diffusers-rocm:0.38.0
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/funasr-rocm:1.3.9: docker.io/opencsghq/funasr-rocm:1.3.9
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/hf-inference-toolkit-rocm:0.5.5: docker.io/opencsghq/hf-inference-toolkit-rocm:0.5.5
@@ -125,7 +126,7 @@
 #docker.io/minio/minio:RELEASE.2025-04-22T22-12-26Z: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/minio/minio
 #ghcr.io/browserless/chromium:v2.51.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/public/browserless/chromium
 
-opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.9-ee: docker.io/opencsghq/csgbot
+#opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.9-ee: docker.io/opencsghq/csgbot
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/csgclaw-server-sandbox:2026080703: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026080703
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgclaw-server-sandbox:2026080703: docker.io/opencsghq/csgclaw-server-sandbox:2026080703
 
