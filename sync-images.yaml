@@ -1,4 +1,5 @@
 ---
+registry.gitlab.com/security-products/secrets:7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/secrets
 #docker.io/redis:7.4.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/redis
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v2.5.0-ee: docker.io/opencsghq/csghub-xnet
 #docker.io/casbin/casdoor:3.62.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/casbin/casdoor
@@ -154,7 +155,7 @@
 #docker.io/temporalio/server:1.32.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/server
 #docker.io/temporalio/ui:2.54.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/temporalio/ui
 
-registry.k8s.io/agent-sandbox/agent-sandbox-controller:v0.5.4,v0.5.5,v0.5.6: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agent-sandbox/agent-sandbox-controller
+#registry.k8s.io/agent-sandbox/agent-sandbox-controller:v0.5.4,v0.5.5,v0.5.6: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agent-sandbox/agent-sandbox-controller
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/agenticflow:ee-v0.6-5: docker.io/opencsghq/agenticflow:ee-v0.6-5
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csgbot:v0.6.2-ee: docker.io/opencsghq/csgbot:v0.6.2-ee
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/genius-sandbox:2026070902: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/genius-sandbox:2026070902
