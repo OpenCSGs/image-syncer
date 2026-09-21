@@ -1,5 +1,6 @@
 ---
-registry.gitlab.com/security-products/secrets:7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/secrets
+docker.io/alpine/helm:3,4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine/helm
+#registry.gitlab.com/security-products/secrets:7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/secrets
 #docker.io/redis:7.4.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/redis
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v2.5.0-ee: docker.io/opencsghq/csghub-xnet
 #docker.io/casbin/casdoor:3.62.1: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/casbin/casdoor
