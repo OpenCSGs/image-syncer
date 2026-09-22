@@ -1,5 +1,6 @@
 ---
-docker.io/alpine/helm:3,4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine/helm
+docker.io/golangci/golangci-lint:v2.13,v2.12,v2.8,v2.3,v1.63,v1.59,v1.55,v1.53: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/golangci/golangci-lint
+#docker.io/alpine/helm:3,4: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine/helm
 #registry.gitlab.com/security-products/secrets:7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/secrets
 #docker.io/redis:7.4.11: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/redis
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/csghub-xnet:v2.5.0-ee: docker.io/opencsghq/csghub-xnet
