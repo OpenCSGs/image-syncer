@@ -1,3 +1,4 @@
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:/^v\d+\.\d+\.\d+-(ce|ee)(-beta)?$/: docker.io/opencsghq/omnibus-csghub
 opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/omnibus-csghub:latest: docker.io/opencsghq/omnibus-csghub
 docker.io/alpine:latest: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/alpine
+docker.io/golangci/golangci-lint:v2.13,v2.12,v2.8,v2.3,v1.63,v1.59,v1.55,v1.53: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsg_public/golangci/golangci-lint
