@@ -1,6 +1,5 @@
 ---
 # rancher k3s v1.36.5+k3s1
-docker.io/rancher/klipper-helm:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/klipper-helm
 docker.io/rancher/klipper-lb:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/klipper-lb
 docker.io/rancher/local-path-provisioner:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/local-path-provisioner
 docker.io/rancher/mirrored-coredns-coredns:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-coredns-coredns
