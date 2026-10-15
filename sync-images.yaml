@@ -1,9 +1,11 @@
 ---
 # rancher k3s v1.36.5+k3s1
-docker.io/rancher/mirrored-pause:3.10.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-pause:3.10.2
-docker.io/rancher/local-path-provisioner:v0.0.37: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/local-path-provisioner:v0.0.37
-docker.io/rancher/mirrored-coredns-coredns:1.14.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-coredns-coredns:1.14.7
-docker.io/rancher/mirrored-metrics-server:v0.9.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-metrics-server:v0.9.0
+docker.io/rancher/klipper-lb:/v\d+\.\d+\.\d+/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/klipper-lb
+
+#docker.io/rancher/mirrored-pause:3.10.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-pause:3.10.2
+#docker.io/rancher/local-path-provisioner:v0.0.37: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/local-path-provisioner:v0.0.37
+#docker.io/rancher/mirrored-coredns-coredns:1.14.7: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-coredns-coredns:1.14.7
+#docker.io/rancher/mirrored-metrics-server:v0.9.0: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-metrics-server:v0.9.0
 
 #opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/evalscope:1.11.1-cpu: docker.io/opencsghq/evalscope:1.11.1-cpu
 #registry.opencsg.com/opencsghq/minio/minio:RELEASE.2025-09-07T16-13-09Z: docker.io/opencsghq/minio:RELEASE.2025-09-07T16-13-09Z
