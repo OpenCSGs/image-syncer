@@ -1,6 +1,13 @@
 ---
 # rancher k3s v1.36.5+k3s1
+docker.io/rancher/klipper-helm::/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/klipper-helm
 docker.io/rancher/klipper-lb:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/klipper-lb
+docker.io/rancher/local-path-provisioner:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/local-path-provisioner
+docker.io/rancher/mirrored-coredns-coredns:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-coredns-coredns
+docker.io/rancher/mirrored-library-busybox:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-library-busybox
+docker.io/rancher/mirrored-library-traefik:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-library-traefik
+docker.io/rancher/mirrored-metrics-server:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-metrics-server
+docker.io/rancher/mirrored-pause:/v\d+\.\d+\.\d+$/: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-pause
 
 #docker.io/rancher/mirrored-pause:3.10.2: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/mirrored-pause:3.10.2
 #docker.io/rancher/local-path-provisioner:v0.0.37: opencsg-registry.cn-beijing.cr.aliyuncs.com/opencsghq/rancher/local-path-provisioner:v0.0.37
